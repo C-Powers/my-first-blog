@@ -121,3 +121,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+#add a login redirect, which will redirect a successful login
+#to the top level index. No need to create a new views/url for successful
+#logins. Yay!
+
+LOGIN_REDIRECT_URL = '/'

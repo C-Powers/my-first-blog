@@ -1,3 +1,20 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+small {
+  font-weight: 200;
+  font-size: .60em;
+}
+
 .page-header {
     background-color: #ff9400;
     margin-top: 0;
@@ -33,7 +50,7 @@ h1, h2, h3, h4 {
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 26pt;
+    font-size: 1.75em;
     margin-right: 20px;
 }
 
